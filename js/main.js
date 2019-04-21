@@ -172,8 +172,7 @@ $(document).ready(function() {
 
 $(function () {
     $(document).ready(function() {
-        $(".fb").fancybox();
-	});
+       
 	
 	$('.header-slider').lightSlider({
 		item:1,
@@ -184,5 +183,8 @@ $(function () {
 		adaptiveHeight: true,	
 		prevHtml:'<',
 		nextHtml:'>',
+	});
+	    
+	     $(".fb").fancybox();
 	});
 });
